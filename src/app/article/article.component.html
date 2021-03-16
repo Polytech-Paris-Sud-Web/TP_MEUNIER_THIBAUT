@@ -1,0 +1,7 @@
+<div *ngIf="this.article" class="article">
+    <h3> {{this.article.id}}. {{this.article.title}} </h3>
+	<i id="author"> by {{this.article.author}} </i>
+    <p> {{this.article.content}} </p>
+    <button><a routerLink="/article/{{article.id}}">Read</a></button>
+    <button (click)="delete()">Supprimer</button>
+</div>

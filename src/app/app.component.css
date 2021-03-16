@@ -1,0 +1,14 @@
+.navbar {
+    display: flex;
+    border: solid grey 1px;
+    margin-bottom : 10px;
+}
+.navbar a {
+    display: block;
+    flex: 1;
+    text-align: center;
+    margin: 5px;
+    background-color: rgb(209, 209, 209);
+    text-decoration: none;
+    color: black;
+}

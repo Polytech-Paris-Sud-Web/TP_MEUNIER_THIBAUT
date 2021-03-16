@@ -1,0 +1,14 @@
+h3 {
+
+	margin: 0px;
+}
+
+#author {
+	color: grey;
+}
+
+.article {
+	padding: 3px;
+	margin-bottom: 1vh;
+	border: solid black 2px;
+}
